@@ -1,6 +1,6 @@
 Live Chatbot Link
 
-https://ai.studio/apps/bf8c96ed-e544-4252-a5be-6fe71d327d25
+https://mind-buddy-psi.vercel.app/
 
 MindBuddy — A Safe Space for Emotional Clarity
 
