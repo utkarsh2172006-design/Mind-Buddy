@@ -1,3 +1,6 @@
+## 🔗 Live Chatbot Link
+
+https://ai.studio/apps/bf8c96ed-e544-4252-a5be-6fe71d327d25
 The Story of MindBuddy
 
 Mental health support often falls short for one simple reason: it becomes too clinical, too robotic, or too intrusive.
