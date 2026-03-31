@@ -4,8 +4,8 @@
  */
 
 import { useState, useRef, useEffect } from "react";
-import { GoogleGenAI } from "@google/genai";
-import { Send, Sparkles, Heart, Wind, BookOpen, Smile, Info, Loader2, Copy, Check } from "lucide-react";
+import { GoogleGenAI } from "@google/genai"; // ✅ Correct import
+import { Send, Sparkles, Heart, Loader2, Copy, Check, BookOpen } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import ReactMarkdown from "react-markdown";
 
@@ -79,7 +79,11 @@ export default function App() {
     setIsLoading(true);
 
     try {
-     const ai = new GoogleGenAI({   apiKey: import.meta.env.VITE_API_KEY });
+      // ✅ Use env variable here, never hardcode API key
+      const ai = new GoogleGenAI({
+        apiKey: import.meta.env.VITE_API_KEY
+      });
+
       const chat = ai.chats.create({
         model: "gemini-3-flash-preview",
         config: {
